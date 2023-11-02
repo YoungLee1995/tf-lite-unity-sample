@@ -43,6 +43,24 @@
       "source": "builtin",
       "dependencies": {}
     },
+    "com.unity.barracuda": {
+      "version": "https://github.com/YoungLee1995/barracuda-release-0.4.0-preview.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.burst": "1.1.1"
+      },
+      "hash": "2e30fec0607c0c08be5c63c7b36b3e57b9ef3035"
+    },
+    "com.unity.burst": {
+      "version": "1.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.1.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 0,

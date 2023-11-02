@@ -12,6 +12,7 @@
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.3.1",
     "com.github.asus4.texture-source": "0.1.2",
     "com.unity.2d.sprite": "1.0.0",
+    "com.unity.barracuda": "https://github.com/YoungLee1995/barracuda-release-0.4.0-preview.git",
     "com.unity.ext.nunit": "1.0.6",
     "com.unity.ide.vscode": "1.2.5",
     "com.unity.mathematics": "1.2.6",
