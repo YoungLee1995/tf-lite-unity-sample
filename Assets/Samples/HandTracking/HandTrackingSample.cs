@@ -32,6 +32,12 @@ public class HandTrackingSample : MonoBehaviour
     private UniTask<bool> task;
     private CancellationToken cancellationToken;
 
+    public GUIStyle customStyle; // 自定义GUI样式
+    public string log1 = "默认文本";
+    public string log2 = "false";
+
+    string textToDisplay = "Hello, World!";
+
     private void Start()
     {
         palmDetect = new PalmDetect(palmModelFile);
@@ -102,7 +108,7 @@ public class HandTrackingSample : MonoBehaviour
 
     private async UniTask<bool> InvokeAsync(Texture texture)
     {
-        palmResults = await palmDetect.InvokeAsync(texture, cancellationToken);
+        palmResults = await palmDetect.InvokeAsync(texture, cancellationToken,log1);
         cameraView.material = palmDetect.transformMat;
         cameraView.rectTransform.GetWorldCorners(rtCorners);
 
@@ -129,6 +135,7 @@ public class HandTrackingSample : MonoBehaviour
                 draw.Point(MathTF.Lerp(min, max, (Vector3)kp, true), 0.05f);
             }
         }
+
         draw.Apply();
     }
 
@@ -186,6 +193,15 @@ public class HandTrackingSample : MonoBehaviour
         }
 
         draw.Apply();
+    }
+
+    void OnGUI()
+    {
+        customStyle = new GUIStyle(GUI.skin.label);
+        customStyle.fontSize = 48; // 设置字体大小
+        // 创建一个文本框
+        log1 = GUI.TextField(new Rect(100, 200, 800, 60), log1, customStyle);
+        log2 = GUI.TextField(new Rect(100, 300, 800, 60), log2, customStyle);
     }
 
 }
