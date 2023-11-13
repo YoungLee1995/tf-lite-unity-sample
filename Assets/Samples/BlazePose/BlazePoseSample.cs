@@ -40,6 +40,8 @@ public sealed class BlazePoseSample : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("modelPath:" + options.detect.modelPath);
+        options.detect.modelPath = "palm_detection.tflite";
         pose = new BlazePose(options);
 
         drawer = new BlazePoseDrawer(Camera.main, gameObject.layer, containerView);

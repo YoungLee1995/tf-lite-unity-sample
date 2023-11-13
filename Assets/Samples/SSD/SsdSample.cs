@@ -43,6 +43,7 @@ public class SsdSample : MonoBehaviour
         else
 #endif // UNITY_ANDROID && !UNITY_EDITOR
         {
+            Debug.Log("modelPath:" + options.modelPath);
             ssd = new SSD(options);
         }
 

@@ -46,6 +46,7 @@ namespace TensorFlowLite
         public SSD(Options options, InterpreterOptions interpreterOptions)
             : base(options.modelPath, interpreterOptions)
         {
+            Debug.Log("modelPath:" + options.modelPath);
             resizeOptions.aspectMode = options.aspectMode;
         }
 

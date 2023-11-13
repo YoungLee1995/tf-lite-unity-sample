@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708625, g: 0.37838694, b: 0.35726872, a: 1}
+  m_IndirectSpecularColor: {r: 0.3708985, g: 0.3783704, b: 0.35722548, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -805,8 +805,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79652f67b30a4442f9200189000f7eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  palmModelFile: mediapipe/palm_detection.tflite
-  landmarkModelFile: mediapipe/hand_landmark.tflite
+  palmModelFile: mediapipe/palm_detection_lite.tflite
+  landmarkModelFile: mediapipe/hand_landmark_full.tflite
   cameraView: {fileID: 2074584278}
   debugPalmView: {fileID: 1302103928}
   runBackground: 0

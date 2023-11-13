@@ -19,12 +19,12 @@ namespace TensorFlowLite
         public const int MAX_PALM_NUM = 4;
 
         // classificators / scores
-        private readonly float[] output0 = new float[2944];
+        private readonly float[] output0 = new float[2016];
 
         // regressors / points
         // 0 - 3 are bounding box offset, width and height: dx, dy, w ,h
         // 4 - 17 are 7 hand keypoint x and y coordinates: x1,y1,x2,y2,...x7,y7
-        private readonly float[,] output1 = new float[2944, 18];
+        private readonly float[,] output1 = new float[2016, 18];
         private readonly List<Result> results = new List<Result>();
         private readonly SsdAnchor[] anchors;
 
@@ -32,10 +32,10 @@ namespace TensorFlowLite
         {
             var options = new SsdAnchorsCalculator.Options()
             {
-                inputSizeWidth = 256,
-                inputSizeHeight = 256,
+                inputSizeWidth = width,
+                inputSizeHeight = height,
 
-                minScale = 0.1171875f,
+                minScale = 0.1484375f,
                 maxScale = 0.75f,
 
                 anchorOffsetX = 0.5f,
@@ -68,8 +68,8 @@ namespace TensorFlowLite
             interpreter.SetInputTensorData(0, inputTensor);
             interpreter.Invoke();
 
-            interpreter.GetOutputTensorData(0, output0);
-            interpreter.GetOutputTensorData(1, output1);
+            interpreter.GetOutputTensorData(0, output1);
+            interpreter.GetOutputTensorData(1, output0);
         }
 
         public async UniTask<List<Result>> InvokeAsync(Texture inputTex, CancellationToken cancellationToken)
@@ -80,8 +80,8 @@ namespace TensorFlowLite
             interpreter.SetInputTensorData(0, inputTensor);
             interpreter.Invoke();
 
-            interpreter.GetOutputTensorData(0, output0);
-            interpreter.GetOutputTensorData(1, output1);
+            interpreter.GetOutputTensorData(0, output1);
+            interpreter.GetOutputTensorData(1, output0);
 
             var results = GetResults();
 
