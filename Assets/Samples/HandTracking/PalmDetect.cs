@@ -32,10 +32,10 @@ namespace TensorFlowLite
         {
             var options = new SsdAnchorsCalculator.Options()
             {
-                inputSizeWidth = 256,
-                inputSizeHeight = 256,
+                inputSizeWidth = width,
+                inputSizeHeight = height,
 
-                minScale = 0.1171875f,
+                minScale = 0.1484375f,
                 maxScale = 0.75f,
 
                 anchorOffsetX = 0.5f,

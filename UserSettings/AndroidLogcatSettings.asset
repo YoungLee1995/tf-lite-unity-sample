@@ -1,0 +1,241 @@
+{
+    "m_SelectedDeviceId": "R9HT402NMWX",
+    "m_SelectedPackage": {
+        "deviceId": "R9HT402NMWX",
+        "name": "com.asus4.tfliteunitysample",
+        "processId": 12024,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 5145,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 5576,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 6625,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 7068,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 7530,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 8279,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 13833,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 14684,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 15106,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 15477,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 15905,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 16441,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 18213,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 18776,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 6975,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 7608,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 8219,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 8533,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 8908,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 9214,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 9487,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 9772,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 10078,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 10366,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 11007,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 11673,
+            "exited": false
+        },
+        {
+            "deviceId": "R9HT402NMWX",
+            "name": "com.asus4.tfliteunitysample",
+            "processId": 12024,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_FilterOptions": {
+        "m_Filter": "",
+        "m_UseRegularExpressions": false,
+        "m_MatchCase": false
+    },
+    "m_SymbolPaths": [],
+    "m_CaptureVideoSettings": {
+        "TimeLimitEnabled": false,
+        "TimeLimit": 180,
+        "VideoSizeEnabled": false,
+        "VideoSizeX": 1280,
+        "VideoSizeY": 720,
+        "BitRateEnabled": false,
+        "BitRateK": 20000,
+        "DisplayIdEnabled": false,
+        "DisplayId": ""
+    }
+}

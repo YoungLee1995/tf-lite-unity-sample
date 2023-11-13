@@ -108,7 +108,7 @@ public class HandTrackingSample : MonoBehaviour
 
     private async UniTask<bool> InvokeAsync(Texture texture)
     {
-        palmResults = await palmDetect.InvokeAsync(texture, cancellationToken,log1);
+        palmResults = await palmDetect.InvokeAsync(texture, cancellationToken);
         cameraView.material = palmDetect.transformMat;
         cameraView.rectTransform.GetWorldCorners(rtCorners);
 
